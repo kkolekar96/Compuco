@@ -1,0 +1,14 @@
+{
+  "name": "compuco-theme",
+  "version": "1.0.0",
+  "description": "compuco theme",
+  "scripts": {
+    "build": "sass scss/style.scss:css/style.css",
+    "watch": "sass scss:css --watch"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "sass": "^1.85.1"
+  }
+}

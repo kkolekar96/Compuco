@@ -1,0 +1,48 @@
+.hero-banner--wrapper {
+  position: relative;
+
+  .img-wrapper {
+    img {
+      width: 100%;
+    }
+  }
+
+  .content-wrapper {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    img {
+      width: 70px;
+
+      @include media-breakpoint-up(xl) {
+        width: 132px;
+      }
+    }
+
+    a {
+      font-size: 16px;
+      margin-top: 15px;
+      display: block;
+
+      @include media-breakpoint-up(xl) {
+        font-size: 21px;
+        margin-top: 30px;
+      }
+    }
+
+    h1 {
+      color: var(--bs-white);
+      font-size: 24px;
+
+      @include media-breakpoint-up(xl) {
+        display: flex;
+        font-size: 56px;
+      }
+    }
+  }
+}

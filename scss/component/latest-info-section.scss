@@ -1,0 +1,67 @@
+.latest-information {
+  padding: 3rem 0;
+
+  .text-center {
+    .icon {
+      width: 30px;
+      margin-bottom: 10px;
+
+      @include media-breakpoint-up(xl) {
+        font-size: 48px;
+      }
+    }
+
+    .section-title {
+      font-size: 32px;
+			padding-left: 20px;
+      font-weight: bold;
+      color: $primary-bg;
+
+      @include media-breakpoint-up(xl) {
+        font-size: 48px;
+      }
+    }
+  }
+
+  .info-card {
+		min-height: 390px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+			border-radius: 8px;
+    }
+
+    .card-body {
+			box-shadow: -10px -6px 50px 0px #0000001F;
+			border-radius: 16px 0 0 0;
+			font-weight: bold;
+			text-align: center;
+			background: var(--bs-white);
+			margin-left: 28px;
+			position: absolute;
+			top: 12rem;
+			height: 100%;
+			left: 0;
+			right: 0;
+
+			.card-text {
+				text-align: left;
+				padding: 20px;
+			}
+    }
+
+		&:hover {
+			background-color: var(--bs-white);
+
+			.card-body {
+				background-color: $primary-bg;
+				color: var(--bs-white);
+			}
+		}
+  }
+}

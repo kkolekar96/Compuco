@@ -1,0 +1,16 @@
+// Common style
+
+body {
+  background-color: $bg-cover;
+  position: relative;
+}
+
+a {
+  color: var(--bs-white);
+  text-decoration: none;
+}
+
+.main-wrapper {
+  max-width: 1176px;
+  margin: 0 auto;
+}

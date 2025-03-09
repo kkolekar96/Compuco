@@ -1,0 +1,27 @@
+name = Compuco
+description = Custom Bootstrap 5 theme for Drupal 7
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/style.css
+
+scripts[] = js/bootstrap.bundle.min.js
+scripts[] = js/scripts.js
+
+regions[header] = Header
+regions[navigation] = Navigation
+regions[content_first] = Content First
+regions[content] = Content
+regions[sidebar_first] = Left Sidebar
+regions[sidebar_second] = Right Sidebar
+regions[footer_left] = Footer Left
+regions[footer_middle] = Footer Middle
+regions[footer_right] = Footer Right
+regions[footer] = Footer
+regions[footer_bottom] = Footer Bottom
+
+features[] = logo
+features[] = favicon
+features[] = name
+features[] = slogan

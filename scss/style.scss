@@ -1,0 +1,10 @@
+// SCSS file for Compuco theme
+@import url('../node_modules/bootstrap-icons/font/bootstrap-icons.min.css');
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+@import "global/colour";
+@import "global/main";
+@import "component/footer";
+@import "component/banner";
+@import "component/latest-info-section";
+@import "component/header";
