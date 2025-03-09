@@ -21,7 +21,8 @@ Following are the tech stack
     ```
     $ ddev start
     ```
-3. CCS are pre-compiled with the project. You can update the css by running following command from theme directory.<br />
+3. Import DB. Use file "compucodb.sql.gz"
+4. CCS are pre-compiled with the project. You can update the css by running following command from theme directory.<br />
     To complie the SCSS
     ```
     $ npm install
